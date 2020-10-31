@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+
+a, button {
+    transition: all .3s ease-in-out 
+}
+
+html {
+    font-size: 10px;
+}
+
+.footor {
+    background-color: #2a252b;
+}
+
+.container {
+    background-color: #121116;
+    width: 1170px;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.logo {
+    padding: 120px 0 50px;
+}
+
+.logo__img {
+    margin: 0 auto;
+    display: block;
+    width: 120px;
+    height: 35px;
+}
+
+.links {
+    width: 23rem;
+    margin: 0 auto;
+}
+
+.text {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 2rem;
+    color: #fefbfc;
+    text-align: center;
+    padding-bottom: 20px;
+    margin: 0;
+    border-bottom: 1px solid #fff;
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: space-around;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+i {
+    color: #fefbfc;
+    font-size: 15px;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+
+.fa-facebook-f:hover,
+.fa-facebook-f:focus,
+.fa-facebook-f:active {
+    color: #2600ce;
+}
+
+.fa-twitter:hover,
+.fa-twitter:focus,
+.fa-twitter:active {
+    color: #7cfc00;
+}
+
+.fa-google:hover,
+.fa-google:focus,
+.fa-google:active {
+    color: #fc0000;
+}
+
+.fa-telegram-plane:hover,
+.fa-telegram-plane:focus,
+.fa-telegram-plane:active {
+    color: #38c7ff;
+}
+
+.footor__text {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #f0ecee;
+    text-align: center;
+    margin: 60px 0 40px;
+}
+
+.footor__text--kasper {
+    color: #19c8fa;
+}
